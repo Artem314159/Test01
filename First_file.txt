@@ -1,2 +1,6 @@
 Hello world!
+<<<<<<< HEAD
 Hello Artem!
+=======
+Hello Artem!
+>>>>>>> d7305b10195eb0ab6c0b9f054043c887c6508530

@@ -1,2 +1,6 @@
 It's free real estate
+<<<<<<< HEAD
 I need more lines
+=======
+More lines
+>>>>>>> master

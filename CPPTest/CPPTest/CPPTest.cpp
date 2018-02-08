@@ -1,25 +1,24 @@
 #include "stdafx.h"
 #include <iostream>
+using namespace std;
 
-<<<<<<< HEAD
-int plus(int a, int b)
+int my_Plus(int a, int b)
 {
 	return a + b;
 }
 
-=======
-using namespace std;
-
-int foo(int a, int b)
+int my_Minus(int a, int b)
 {
 	return a - b;
 }
->>>>>>> b6789e0075e2fe1051a6501f5f5f0f999f109908
+
 int main()
 {
-	int plus;
-	int minus;
-	cin >> plus >> minus;
-	cout << foo(plus, minus) << endl;
+	int A;
+	int B;
+	cin >> A >> B;
+	cout << my_Plus(A, B) << endl;
+	cin >> A >> B;
+	cout << my_Minus(A, B) << endl;
     return 0;
 }
